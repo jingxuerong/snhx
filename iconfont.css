@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3693259 */
+  src: url('iconfont.woff2?t=1665991838340') format('woff2'),
+       url('iconfont.woff?t=1665991838340') format('woff'),
+       url('iconfont.ttf?t=1665991838340') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huidaodingbu1:before {
+  content: "\e88d";
+}
+
+.icon-huidaodingbu:before {
+  content: "\e619";
+}
+
+.icon-xiala:before {
+  content: "\e612";
+}
+
+.icon-shuaxin:before {
+  content: "\ec08";
+}
+
+.icon-sousuo:before {
+  content: "\e62f";
+}
+
+.icon-shoucang:before {
+  content: "\eca7";
+}
+
+.icon-camera:before {
+  content: "\e667";
+}
+
+.icon-comment:before {
+  content: "\e668";
+}
+
+.icon-direction-left:before {
+  content: "\e66c";
+}
+
+.icon-mic:before {
+  content: "\e678";
+}
+
+.icon-setting:before {
+  content: "\e67d";
+}
+
+.icon-user-filling:before {
+  content: "\e68b";
+}
+
+.icon-sixin:before {
+  content: "\e788";
+}
+
+.icon-icon:before {
+  content: "\e651";
+}
+
+.icon-liulanliang:before {
+  content: "\e603";
+}
+
+.icon-24px:before {
+  content: "\e611";
+}
+
+.icon-dianzan:before {
+  content: "\e6af";
+}
+
