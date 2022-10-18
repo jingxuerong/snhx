@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#bg1{
+    width: 100%;
+    background-image: url(f22.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    top: 92px; 
+}
+ .header {
+    width: 100%;
+    height: 30px;
+} 
+.header span{
+    font-size: 22px;
+    letter-spacing: 9px;
+    line-height: 30px;
+    position: relative;
+    color: palevioletred;
+}
+.icon{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: rgba(220, 110, 150,0.3);
+}
+.nav{
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+.nav li{
+float: left;
+margin-left: 175px;
+}
+.nav a{
+    text-decoration: none;
+    font: normal bold 18px "宋体";
+}
+.nav ul li :nth-child(3) :visited{
+    color: red;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li a:active{
+    color: rgb(237, 155, 182);
+}
+.box2{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+.flexbox1{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sg1{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    border-radius: 40px;
+    background-image: url(f19.gif);
+    background-size: 100% 100%;
+}
+ .sg2{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    left: 85px;
+}
+.sg2>span{
+    font: normal bold 18px "楷体";
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: palevioletred;
+}
+.sg2>p{
+    font: normal bold 18px "楷体";
+    line-height: 1.8em;
+    color: palevioletred;
+}
+.flexbox2{
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.sg3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    border-radius: 30px;
+    background-image: url(f19.gif);
+    background-size: 100% 100%;
+}
+.sg4{
+    position: absolute;
+    top: 0;
+    left: 65px;
+}
+.sg4 p:nth-child(1){
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '草书';
+}
+.sg4 p:nth-child(2){
+    font-size: 6px;
+    color: palevioletred;
+    font-family: '楷体';
+}
+.sg5{
+    position: absolute;
+    top: 45px;
+    left: 17%;
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '行书';
+}
+.sg6{
+    position: absolute;
+    top: 80px;
+    left: 17%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: repeat(2,180px);
+    grid-template-columns: repeat(3,150px);
+    grid-template-areas: 'a b c'
+                         'a d e'; 
+}
+.sg6 div:nth-child(1){
+    background-image: url(f1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-area: a;
+}
+.sg6 div:nth-child(2){
+    background-image: url(f2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sg6 div:nth-child(3){
+    background-image: url(f3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sg6 div:nth-child(4){
+    background-image: url(f4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sg6 div:nth-child(5){
+    background-image: url(f5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sg7{
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+}
+.sg7 span{
+    font-size: 35px;
+    letter-spacing: 20px;
+    color: palevioletred;
+}
+.sg7 span:hover{
+    color: red;
+}
+.con{
+    width: 100%;
+    height: 100px;
+}
+.sg8{
+    width: 80%;
+    height: 120px;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    font-size: 0;
+}
+.sg8 span{
+    font-size: 20px;
+    color: palevioletred;
+}
+.sg8 i{
+    font-size: 16px;
+    color: palevioletred;
+}
+.sg8 em{
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '宋体';
+}
+.sg8 p{
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '宋体';
+}
+.flexbox3{
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.sg9{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    border-radius: 30px;
+    background-image: url(f19.gif);
+    background-size: 100% 100%;
+}
+.sg10{
+    position: absolute;
+    top: 0;
+    left: 65px;
+}
+.sg10 p:nth-child(1){
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '草书';
+}
+.sg10 p:nth-child(2){
+    font-size: 6px;
+    color: palevioletred;
+    font-family: '楷体';
+}
+.sg11{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    justify-content: center;
+    align-content: center;
+}
+.sg11 p{
+    text-indent: 2em;
+    font-size: 16px;
+    color: palevioletred;
+    font-family: '宋体';
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+.sg11 span{
+    color: palevioletred;
+    font-family: '宋体';
+    font-size: 20px;
+}
+.sg11 strong{
+    text-align: center;
+    color: palevioletred;
+    font-family: '草书';
+    font-size: 20px;
+}
+.flexbox4{
+    margin-top: 40px;
+}
+.flexbox4 p{
+    color: palevioletred;
+    font-family: '草书';
+}
+.box3{
+    display: table;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sg12 p{
+    font-size: 16px;
+    font-family: '宋体';
+    color: red;
+    position: absolute;
+    top: 25px;
+    left: 25%;
+    text-align: center;
+}
+.fh{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+.fh a{
+    text-decoration: none;
+}
+.fh span{
+    color: palevioletred;
+    font-size: 36px;
+}
